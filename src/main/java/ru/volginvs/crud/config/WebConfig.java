@@ -62,7 +62,6 @@ public class WebConfig implements WebMvcConfigurer {
         return dataSource;
     }
 
-
     @Bean
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
         LocalContainerEntityManagerFactoryBean em
@@ -90,7 +89,6 @@ public class WebConfig implements WebMvcConfigurer {
         return new PersistenceExceptionTranslationPostProcessor();
     }
 
-
 //---------------------------------------------------------------------------
     @Bean
     public SpringResourceTemplateResolver templateResolver() {
@@ -108,7 +106,6 @@ public class WebConfig implements WebMvcConfigurer {
         templateEngine.setEnableSpringELCompiler(true);
         return templateEngine;
     }
-
 
     @Override
     public void configureViewResolvers(ViewResolverRegistry registry) {
