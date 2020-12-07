@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ru.volginvs.crud.dao.UserDao;
 import ru.volginvs.crud.model.User;
-
 import java.util.List;
 
 @Service
